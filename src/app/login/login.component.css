@@ -1,0 +1,14 @@
+#login-form{
+    width:400px;
+    margin:0 auto;
+    margin-top:90px;
+    padding:20px;
+    border-style:groove;
+}
+#login-form input{
+    background-color: lightgray !important;
+}
+#login-form h6{
+    text-align: center;
+    padding-bottom:15px;
+}

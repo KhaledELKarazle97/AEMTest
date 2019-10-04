@@ -1,0 +1,12 @@
+<div class="container" id="login-form">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+              <h6>Sign in to your dashboard</h6>
+            <form #signInForm="ngForm" (ngSubmit)="signIn(signInForm)">
+              <input type="text" class="form-control" name="uname" placeholder="Username" ngModel><br>
+              <input type="password" class="form-control" name="upass" placeholder="Password" ngModel>
+              <br><button class="btn btn-primary" type="submit">SIGN IN</button>
+            </form>
+          </div>
+        </div>
+      </div>
